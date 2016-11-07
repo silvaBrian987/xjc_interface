@@ -34,7 +34,7 @@ namespace xjc_interface
 
         private void btnAddArg_Click(object sender, EventArgs e)
         {
-            dialogForm dialog = new dialogForm();
+            dialogInputForm dialog = new dialogInputForm();
 
             if (dialog.ShowDialog(this) == DialogResult.OK)
             {

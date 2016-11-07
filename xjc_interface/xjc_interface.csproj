@@ -60,17 +60,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="dialogForm.cs">
+    <Compile Include="dialogInputForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="dialogForm.Designer.cs">
-      <DependentUpon>dialogForm.cs</DependentUpon>
+    <Compile Include="dialogInputForm.Designer.cs">
+      <DependentUpon>dialogInputForm.cs</DependentUpon>
     </Compile>
     <Compile Include="frmInterface.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmInterface.Designer.cs">
       <DependentUpon>frmInterface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLog.Designer.cs">
+      <DependentUpon>frmLog.cs</DependentUpon>
     </Compile>
     <Compile Include="mainForm.cs">
       <SubType>Form</SubType>
@@ -80,11 +86,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="dialogForm.resx">
-      <DependentUpon>dialogForm.cs</DependentUpon>
+    <EmbeddedResource Include="dialogInputForm.resx">
+      <DependentUpon>dialogInputForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmInterface.resx">
       <DependentUpon>frmInterface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLog.resx">
+      <DependentUpon>frmLog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="mainForm.resx">
       <DependentUpon>mainForm.cs</DependentUpon>

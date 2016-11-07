@@ -1,6 +1,6 @@
 ﻿namespace xjc_interface
 {
-    partial class dialogForm
+    partial class dialogInputForm
     {
         /// <summary>
         /// Required designer variable.

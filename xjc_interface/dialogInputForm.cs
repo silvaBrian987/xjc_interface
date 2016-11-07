@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace xjc_interface
 {
-    public partial class dialogForm : Form
+    public partial class dialogInputForm : Form
     {
-        public dialogForm()
+        public dialogInputForm()
         {
             InitializeComponent();
         }
